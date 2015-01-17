@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "slideshare next-slide disabler",
+    "description": "slideshare next-slide disabler"
+  },
+  "extDescription": {
+    "message": "slideshareの最終ページから更に1ページ進むと勝手に次のスライドに移動しちゃう超うざ機能を無効化する。",
+    "description": "Dsiable slideshare's next-slide."
+  }
+}

@@ -1,0 +1,13 @@
+{ "manifest_version": 2
+, "name": "__MSG_extName__"
+, "description": "__MSG_extDescription__"
+, "default_locale": "en"
+, "version": "0.0.1"
+, "content_scripts":
+  [ { "all_frames": false
+    , "js": [ "document_end.js" ]
+    , "matches": [ "http://www.slideshare.net/*" ]
+    , "run_at": "document_end"
+    }
+  ]
+}
