@@ -1,3 +1,7 @@
-'use strict';
-!function(t){t.parentNode.removeChild(t)}(document.querySelector(".next-container"));
-
+const waiterId = setInterval(()=>{
+  const target = document.querySelector(".next-container")
+  if(target) {
+    target.parentNode.removeChild(target)
+    clearInterval(waiterId)
+  }
+}, 500)
