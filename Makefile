@@ -1,2 +1,2 @@
 all:
-	zip -r "`pwd`-`jq .version manifest.json | tr -d '"'`".zip *
+	zip -r "$$(basename "$$PWD")"-"$$(jq -r .version manifest.json)".zip * -x \*.zip
